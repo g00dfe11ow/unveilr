@@ -23,7 +23,7 @@ jobs:
         run: yarn
 
       - name: Build
-        run: yarn pkg
+        run: yarn pkg src/index.ts
 
       - name: "Build Changelog"
         id: build_changelog
